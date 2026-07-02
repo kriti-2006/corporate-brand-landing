@@ -108,3 +108,19 @@ function initFAQ() {
     });
   });
 }
+
+// ─── Footer year ─────────────────────────────────────────────────────────────
+
+function initFooterYear() {
+  const el = document.getElementById('footer-year');
+  if (el) el.textContent = new Date().getFullYear();
+}
+
+// ─── Bootstrap ───────────────────────────────────────────────────────────────
+
+document.addEventListener('DOMContentLoaded', () => {
+  initNav();
+  initThemeToggle();
+  initFAQ();
+  initFooterYear();
+});
