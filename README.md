@@ -13,7 +13,7 @@ A fully responsive, accessible marketing landing page for **Prodesk Cloud**, a r
 
 | Desktop | Mobile |
 |---|---|
-| ![Desktop Preview](./assets/images/desktop-view.png) | ![Mobile Preview](./assets/images/mobile-view.png) |
+| ![Desktop Preview](./assets/images/dekstop-view.png) | ![Mobile Preview](./assets/images/mobile-view.png) |
 
 ---
 
