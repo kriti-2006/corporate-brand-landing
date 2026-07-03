@@ -1362,8 +1362,6 @@ textarea:focus-visible {
     padding-top: var(--space-20);
     padding-bottom: var(--space-20);
   }
-
-
 }
 
 /* >= 1440px (large desktop) */
