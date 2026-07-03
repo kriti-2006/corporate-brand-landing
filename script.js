@@ -116,6 +116,32 @@ function initFooterYear() {
   if (el) el.textContent = new Date().getFullYear();
 }
 
+// ─── Subscribe Form ─────────────────────────────────────────────────────────────
+
+function initSubscribeForm() {
+  const form = document.getElementById("subscribe-form");
+  const button = document.getElementById("subscribe-btn");
+  if (!form || !button) return;
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const response = await fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+    if (response.ok) {
+      button.textContent = "Subscribed ✓";
+      button.disabled = true;
+      form.reset();
+    } else {
+      alert("Subscription failed. Please try again.");
+    }
+  });
+}
+
 // ─── Bootstrap ───────────────────────────────────────────────────────────────
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -123,4 +149,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initThemeToggle();
   initFAQ();
   initFooterYear();
+  initSubscribeForm();
 });

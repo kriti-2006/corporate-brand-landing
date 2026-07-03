@@ -427,7 +427,8 @@
           </header>
         </div>
 
-        <form class="contact-cta__form" action="https://formspree.io/f/xykqlkea" method="post" novalidate>
+        <form class="contact-cta__form" action="https://formspree.io/f/xykqlkea" method="POST" novalidate>
+
           <div class="contact-cta__field">
             <label class="contact-cta__label" for="contact-name">Full name</label>
             <input class="contact-cta__input" id="contact-name" name="name" type="text"
@@ -504,12 +505,12 @@
 
         <div class="footer__actions">
           <p class="footer__label">Stay in the loop</p>
-          <form class="footer__form" action="#" method="post" novalidate>
+          <form id="subscribe-form" class="footer__form" action="https://formspree.io/f/xykqlkea" method="post">
             <label class="footer__form-label" for="footer-email">Join our product updates</label>
             <div class="footer__form-row">
-              <input class="footer__input" id="footer-email" name="footer-email" type="email"
-                autocomplete="email" placeholder="you@company.com" />
-              <button class="button button--primary footer__submit" type="submit">Subscribe</button>
+              <input class="footer__input" id="footer-email" name="email" type="email"
+                autocomplete="email" placeholder="you@company.com" required/>
+              <button id="subscribe-btn" class="button button--primary footer__submit" type="submit">Subscribe</button>
             </div>
           </form>
           <div class="footer__social" aria-label="Social links">
