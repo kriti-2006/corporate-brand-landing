@@ -71,7 +71,7 @@ No build tools, frameworks, or external JS libraries — pure HTML/CSS/JS.
 
 1. Clone the repository
    ```bash
-   git clone <repo-url>
+   git clone [<repo-url>](https://github.com/kriti-2006/corporate-brand-landing)
    cd prodesk-cloud-landing
    ```
 2. Open `index.html` directly in a browser, or serve locally:
@@ -83,7 +83,3 @@ No build tools, frameworks, or external JS libraries — pure HTML/CSS/JS.
 ## 🎨 Design System
 
 Colors, typography, spacing, and radii are defined as CSS Custom Properties in `style.css` under `:root`, with a light-mode override via `prefers-color-scheme` and a `.theme--dark` class for manual dark-mode toggling. This keeps the palette consistent and swappable in one place rather than scattered across components.
-
-## 📄 License
-
-Internal training project — Prodesk IT Sprint 01. Not licensed for external distribution.
