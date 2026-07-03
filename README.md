@@ -4,8 +4,8 @@
 
 A fully responsive, accessible marketing landing page for **Prodesk Cloud**, a real-time product analytics platform. Built with semantic HTML5, modern CSS (Grid/Flexbox + Custom Properties), and vanilla JavaScript — no frameworks, no dependencies.
 
-**Live Demo:** [Add deployment URL here]
-**Repository:** [Add GitHub URL here]
+**Live Demo:** https://corporate-brand-landing.vercel.app/
+**Repository:** https://github.com/kriti-2006/corporate-brand-landing
 
 ---
 
@@ -13,7 +13,7 @@ A fully responsive, accessible marketing landing page for **Prodesk Cloud**, a r
 
 | Desktop | Mobile |
 |---|---|
-| _Add screenshot_ | _Add screenshot_ |
+| ![Desktop Preview](./assets/images/desktop-view.png) | ![Mobile Preview](./assets/images/mobile-view.png) |
 
 ---
 
