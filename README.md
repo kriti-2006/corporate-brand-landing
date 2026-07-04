@@ -1,25 +1,16 @@
 # Prodesk Cloud
 
 ## Corporate Analytics Landing Page
+**Live Website:** https://corporate-brand-landing.vercel.app/
 
 A modern, responsive SaaS-style landing page for Prodesk Cloud, an enterprise analytics platform. Built with HTML5, CSS3, and vanilla JavaScript, optimized for Lighthouse-oriented performance, accessibility, scalability, and clean frontend architecture.
-
----
-
-## Project path
-
-The local project path provided is:
-
-```
-D:\.idea\documents\PRODESK 3\PRODESK
-```
 
 ---
 
 ## Final file structure
 
 ```
-D:\.idea\documents\PRODESK 3\PRODESK
+corporate-brand-landing/
 ├── index.html
 ├── style.css
 ├── script.js
@@ -27,6 +18,8 @@ D:\.idea\documents\PRODESK 3\PRODESK
 ├── README.md
 └── assets
     ├── icons
+    │   └── favicon.png
+    │   └── favicon.svg
     │   └── logo.png
     └── images
         ├── hero-dashboard.webp
