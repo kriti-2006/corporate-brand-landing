@@ -28,7 +28,7 @@ function initNav() {
   });
 
   // Close when a link is tapped on mobile
-  document.querySelectorAll('.nav__link').forEach(link => {
+  document.querySelectorAll('.nav__menu a').forEach(link => {
     on(link, 'click', () => { if (window.innerWidth < 768) closeMenu(); });
   });
 
